@@ -23,13 +23,12 @@ type Character = {
 
 const inter = Inter({ subsets: ['latin'] })
 
-
 export default function Home({ character }: { character: Character }) {
   return (
     <>
       <Head>
         <title>Random Rick and Morty Character</title>
-        <meta name="description" content="Get a Random Rick and Morty Character!" />
+        <meta name="description" content="Random Rick and Morty Character" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
