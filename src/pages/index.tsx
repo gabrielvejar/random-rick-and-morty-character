@@ -26,12 +26,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home({ character }: { character: Character }) {
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>Random Rick and Morty Character</title>
         <meta name="description" content="Random Rick and Morty Character" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head> */}
+      </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.container}>
           <Image className={`${styles.image} ${styles.shadow}`} src={character.image} width={300} height={300} alt={`picture of ${character.name}`}></Image>
