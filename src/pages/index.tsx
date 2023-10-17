@@ -23,6 +23,7 @@ type Character = {
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export default function Home({ character }: { character: Character }) {
   return (
     <>
