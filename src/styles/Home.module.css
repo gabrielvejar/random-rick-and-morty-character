@@ -18,6 +18,7 @@
   padding: 10px;
   border-radius: 50px;
   border: none;
+  text-decoration: none;
 }
 
 .refresh:hover {
